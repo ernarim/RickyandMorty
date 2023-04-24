@@ -48,7 +48,7 @@ public class MainActivityViewModel extends ViewModel {
 
             @Override
             public void onFailure(Call<LocationsAll> call, Throwable t) {
-
+                locations = null;
             }
         });
 
@@ -72,6 +72,9 @@ public class MainActivityViewModel extends ViewModel {
 
             @Override
             public void onFailure(Call<List<Character>> call, Throwable t) {
+                characters = null;
+                VerticalRVAdapter verticalRVAdapter = new VerticalRVAdapter(context,characters);
+                verticalRV.setAdapter(verticalRVAdapter);
                 Log.e("TAG_X", "character: " + "Failed");
             }
         });

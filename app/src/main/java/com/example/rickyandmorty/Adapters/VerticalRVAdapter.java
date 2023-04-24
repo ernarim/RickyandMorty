@@ -85,7 +85,11 @@ public class VerticalRVAdapter extends RecyclerView.Adapter<VerticalRVAdapter.Ve
 
     @Override
     public int getItemCount() {
-        return characters.size();
+        if(characters == null)
+            return 0;
+        else{
+            return characters.size();
+        }
     }
 
 

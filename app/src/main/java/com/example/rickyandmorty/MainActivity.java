@@ -10,6 +10,7 @@ import androidx.recyclerview.widget.RecyclerView;
 import android.content.Context;
 import android.os.Bundle;
 import android.util.Log;
+import android.view.View;
 
 import com.example.rickyandmorty.Interface.RVDataPass;
 import com.example.rickyandmorty.ViewModel.MainActivityViewModel;
@@ -64,31 +65,6 @@ public class MainActivity extends AppCompatActivity {
 
 
         viewModel.allLocations(horizontalRV, context, rvDataPass, page);
-
-        /*LinearLayoutManager manager = new LinearLayoutManager(this, LinearLayoutManager.HORIZONTAL, false);
-        horizontalRV.setLayoutManager(manager);
-
-        nestedScrollView = dataBinder.nestedSV;
-
-        nestedScrollView.setOnScrollChangeListener(new View.OnScrollChangeListener(){
-            @Override
-            public void onScrollChange(View v, int scrollX, int scrollY, int oldScrollX, int oldScrollY) {
-                int maxScrollx = nestedScrollView.getChildAt(0).getMeasuredWidth() - v.getMeasuredWidth();
-                Log.e("TAG_X", "maxScrollx: " + maxScrollx);
-                Log.e("TAG_X", "scrollX: " + scrollX);
-                if (scrollX == maxScrollx) {
-
-
-                }
-            }
-        });*/
-
-
-
-
-
-
-
 
     }
 
