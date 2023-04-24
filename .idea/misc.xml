@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/erena/AndroidStudioProjects/RickyandMorty/app/src/main/res/drawable-v24/female-48px.xml" value="0.143" />
+        <entry key="..\:/Users/erena/AndroidStudioProjects/RickyandMorty/app/src/main/res/drawable/ic_baseline_arrow_back_ios_24.xml" value="0.301" />
+        <entry key="..\:/Users/erena/AndroidStudioProjects/RickyandMorty/app/src/main/res/drawable/ic_female.xml" value="0.2465" />
+        <entry key="..\:/Users/erena/AndroidStudioProjects/RickyandMorty/app/src/main/res/drawable/ic_launcher_background.xml" value="0.143" />
+        <entry key="..\:/Users/erena/AndroidStudioProjects/RickyandMorty/app/src/main/res/drawable/ic_male.xml" value="0.2465" />
+        <entry key="..\:/Users/erena/AndroidStudioProjects/RickyandMorty/app/src/main/res/drawable/ic_question_mark.xml" value="0.2465" />
+        <entry key="..\:/Users/erena/AndroidStudioProjects/RickyandMorty/app/src/main/res/drawable/ic_rick_and_morty_svg.xml" value="0.246" />
+        <entry key="..\:/Users/erena/AndroidStudioProjects/RickyandMorty/app/src/main/res/font/avenir_regular.xml" value="0.39166666666666666" />
+        <entry key="..\:/Users/erena/AndroidStudioProjects/RickyandMorty/app/src/main/res/layout/activity_character_detail.xml" value="0.4075342465753425" />
+        <entry key="..\:/Users/erena/AndroidStudioProjects/RickyandMorty/app/src/main/res/layout/activity_main.xml" value="0.25" />
+        <entry key="..\:/Users/erena/AndroidStudioProjects/RickyandMorty/app/src/main/res/layout/activity_splash.xml" value="0.25" />
+        <entry key="..\:/Users/erena/AndroidStudioProjects/RickyandMorty/app/src/main/res/layout/card_view_horizontal_list.xml" value="0.5" />
+        <entry key="..\:/Users/erena/AndroidStudioProjects/RickyandMorty/app/src/main/res/layout/card_view_vertical_list.xml" value="0.9" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+  <component name="VisualizationToolProject">
+    <option name="state">
+      <ProjectState>
+        <option name="scale" value="0.2" />
+      </ProjectState>
+    </option>
+  </component>
+</project>
